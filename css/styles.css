@@ -1,0 +1,74 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.card-block {
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 200px;
+  height: 300px;
+  margin: 100px auto 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  position: relative;
+}
+
+.card-block.apple {
+  background-image: url("../img/apple.png");
+}
+
+.card-block.banana {
+  background-image: url("../img/sweet-banana.png");
+}
+
+.card-block.raspberry {
+  background-image: url("../img/raspberry.png");
+}
+
+.card-block.grape {
+  background-image: url("../img/grape.png");
+}
+
+.card-block .card-num {
+  position: absolute;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card-block .card-num.card-top {
+  top: 10px;
+  left: 10px;
+}
+
+.card-block .card-num.card-bottom {
+  right: 10px;
+  bottom: 10px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.flex-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=styles.css.map */
